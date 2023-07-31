@@ -1,0 +1,32 @@
+.chat::-webkit-scrollbar {
+   width: 8px;
+}
+ 
+.chat::-webkit-scrollbar-track {
+   background: transparent;
+}
+ 
+.chat::-webkit-scrollbar-thumb {
+   background-color: #282B43; 
+   border-radius: 20px;
+}
+
+.chat > div > p {
+   padding: 1rem 1.5rem;
+   margin-top: 1rem;
+   word-break: break-word;
+}
+
+.userMessage {
+   text-align: right;
+   width: 50%;
+   margin-left: 42%;
+   border-radius: 1rem 0 1rem 1rem;
+}
+
+.botMessage {
+   width: 50%;
+   margin-left: 8%;
+   border-radius: 0 1rem 1rem 1rem;
+   text-align: left;
+}
