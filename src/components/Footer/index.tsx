@@ -1,13 +1,44 @@
+import styled from "styled-components";
 import { Copyright } from "phosphor-react";
 
-export function Footer() {
+interface FooterProps {
+  name: string;
+  bgColor?: string;
+  textColor?: string;
+}
+
+const StyledFooter = styled.footer<Omit<FooterProps, "name">>`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  background-color: ${(props) => props.bgColor || "#333"};
+  color: ${(props) => props.textColor || "#fff"};
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5;
+`;
+
+const StyledParagraph = styled.p`
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+
+  & > svg {
+    margin-right: 0.5rem;
+    font-weight: bold;
+  }
+`;
+
+export function Footer({ name, bgColor, textColor }: FooterProps) {
   return (
-    <footer className="flex flex-col items-center justify-center text-base leading-10 bg-color_5 text-[#FFF] h-[120px]">
-      <p className="flex items-center">
-        <Copyright size={24} weight="bold" className="mr-2" />
-        Copyright 2023 HolyBibleChat
-      </p>
+    <StyledFooter bgColor={bgColor} textColor={textColor}>
+      <StyledParagraph>
+        <Copyright size={24} weight="bold" />
+        Copyright 2023 {name}
+      </StyledParagraph>
       <p>All rights reserved</p>
-    </footer>
+    </StyledFooter>
   );
 }
