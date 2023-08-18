@@ -22,8 +22,8 @@ function App() {
     if (polyfact) {
       setChat(
         new polyfact.Chat({
-          // systemPromptId: "8fc39ca4-3941-40d9-824a-5ed283102f6e",
-          systemPromptId: "49735ec7-6c20-4ceb-9741-3de1db4fe6cd",
+          systemPromptId:
+            config.chat.promptId || "49735ec7-6c20-4ceb-9741-3de1db4fe6cd", // virtual soft girlfriend
           autoMemory: true,
         })
       );

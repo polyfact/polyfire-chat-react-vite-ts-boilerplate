@@ -21,7 +21,7 @@ interface Config {
     buttonBorderColor: string;
     buttonBorderWidth: string;
     dotsColor: string;
-    promptId: string;
+    promptId: `${string}-${string}-${string}-${string}-${string}`;
   };
   footer: {
     bgColor: string;
