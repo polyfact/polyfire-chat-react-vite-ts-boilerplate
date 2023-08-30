@@ -1249,12 +1249,13 @@
   resolved "https://registry.yarnpkg.com/@nicolo-ribaudo/chokidar-2/-/chokidar-2-2.1.8-no-fsevents.3.tgz#323d72dd25103d0c4fbdce89dadf574a787b1f9b"
   integrity sha512-s88O1aVtXftvp5bCPB7WnmXc5IwOZZ7YPuwNPt+GtOOXpPvad1LfbmjYv+qII7zP6RU2QGnqve27dnLycEnyEQ==
 
-"@polyfact/chat@^0.1.13":
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/@polyfact/chat/-/chat-0.1.13.tgz#cca082cde6b5281d10a80ae2a9b9ee83145d3c43"
-  integrity sha512-QhxgE3yMGUA/Qyj2lUSHxfxR0zmTUlog5YjGruIQV977vLmL9dIeh5VXDqVs8OHCRGZsDay2ERAz/MFWir3MQQ==
+"@polyfact/chat@^0.1.20":
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/@polyfact/chat/-/chat-0.1.20.tgz#d03ba6859304e90cfe43d98dfda4fc91b640f66f"
+  integrity sha512-kUIZRcMX89q1NXiCKP3q/vJqDx6zQ9WL6d7O3Qneu4qcJ8PgK7PK9mwFsiDiI+R8wklR3W/egs+NvpfzCg3jfQ==
   dependencies:
     "@radix-ui/react-dialog" "^1.0.4"
+    commander "^11.0.0"
     phosphor-react "^1.4.1"
     polyfact "^0.1.43"
     styled-components "^6.0.7"
