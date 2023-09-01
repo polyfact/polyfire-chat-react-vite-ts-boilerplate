@@ -18,15 +18,15 @@ Jumpstart your chat experience using the Polyfact SDK, powered by React and styl
 
 ## 🌟 Features
 
-- 💅 Fully customizable chat UI with styled components.
-- 🔗 Seamless integration with Polyfact SDK for chat functionalities.
-- 🎨 Pre-configured themes for chat, header, and footer.
-- 🛠 Easy to adapt and extend.
+- Fully customizable chat UI with styled components.
+- Seamless integration with Polyfact SDK for chat functionalities.
+- Pre-configured themes for chat, header, and footer.
+- Easy to adapt and extend.
 
 ## 🔧 Prerequisites
 
-- 🟢 Node.js
-- 📦 npm/yarn
+- Node.js
+- npm/yarn
 
 ## 🚀 Installation
 
@@ -56,7 +56,7 @@ npm run dev
 
 ## ⚙ Configuration
 
-🖇 All configurations can be tinkered with in `src/config.ts`. Adjust colors, name your bot, choose logos, and more.
+All configurations can be tinkered with in `src/config.ts`. Adjust colors, name your bot, choose logos, and more.
 
 ### 🛠 Polyfact Configuration
 
@@ -78,25 +78,25 @@ npx polyfact
 
 ## 🔑 Scripts
 
-- 🌱 `npm run dev`: Local development.
-- 📦 `npm run build`: Prep for production.
-- 🔍 `npm run preview`: Peek at the production build.
+- `npm run dev`: Local development.
+- `npm run build`: Prep for production.
+- `npm run preview`: Peek at the production build.
 
 ## 📚 Dependencies
 
-- 🔴 Core: `react`, `react-dom`
-- 🗨 Chat: `@polyfact/chat`, `polyfact`
-- 🎉 Icons: `phosphor-react`
-- 📃 Dialog: `@radix-ui/react-dialog`
-- 🚄 Bundler: `vite`
-- 📜 Types: `typescript`
+- Core: `react`, `react-dom`
+- Chat: `@polyfact/chat`, `polyfact`
+- Icons: `phosphor-react`
+- Dialog: `@radix-ui/react-dialog`
+- Bundler: `vite`
+- Types: `typescript`
 
 ## 🥞 Stack
 
-- ⚛ React
-- 📝 TypeScript
-- 🚀 Vite
-- 💅 styled-components
+- React
+- TypeScript
+- Vite
+- styled-components
 
 ## ✨ Contributing
 
@@ -104,8 +104,8 @@ Have ideas? 🤔 Found a bug? 🐞 Join us! Check out the [issues](https://githu
 
 ## 📜 License
 
-🔖 This magic is under the MIT License. Check out `LICENSE` for details.
+This magic is under the MIT License. Check out `LICENSE` for details.
 
 ---
 
-🌟 If this lights up your day, give us a ⭐ on GitHub!
+If this lights up your day, give us a ⭐ on GitHub!
