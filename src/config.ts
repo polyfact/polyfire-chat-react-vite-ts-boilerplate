@@ -21,7 +21,7 @@ interface Config {
     buttonBorderColor: string;
     buttonBorderWidth: string;
     dotsColor: string;
-    promptId: `${string}-${string}-${string}-${string}-${string}`;
+    promptId?: `${string}-${string}-${string}-${string}-${string}`;
     memoryId: string;
   };
   footer: {
@@ -34,30 +34,30 @@ interface Config {
 const config: Config = {
   header: {
     logo: "./logo.svg",
-    bgColor: "#D81E5B",
-    textColor: "#FFEBE9",
+    bgColor: "",
+    textColor: "",
   },
   chat: {
-    chatBackgroundColor: "#FFE3F0",
-    chatTextColor: "#843B62",
-    inputBackgroundColor: "#FFF5F7",
-    inputColor: "#843B62",
-    placeholderTextColor: "#C79B9E",
-    botMessageColor: "#843B62",
-    botMessageBackgroundColor: "#FFE1E5",
-    userMessageColor: "#FFEBE9",
-    userMessageBackgroundColor: "#D81E5B",
-    botName: "ChatBot",
-    buttonBackgroundColor: "#D81E5B",
-    buttonBorderColor: "#843B62",
+    chatBackgroundColor: "",
+    chatTextColor: "",
+    inputBackgroundColor: "",
+    inputColor: "",
+    placeholderTextColor: "",
+    botMessageColor: "",
+    botMessageBackgroundColor: "",
+    userMessageColor: "",
+    userMessageBackgroundColor: "",
+    botName: "",
+    buttonBackgroundColor: "",
+    buttonBorderColor: "",
     buttonBorderWidth: "1px",
-    dotsColor: "#843B62",
-    promptId: "49735ec7-6c20-4ceb-9741-3de1db4fe6cd",
+    dotsColor: "",
     memoryId: "",
+    promptId: undefined,
   },
   footer: {
-    bgColor: "#D81E5B",
-    textColor: "#FFEBE9",
+    bgColor: "",
+    textColor: "",
   },
 };
 

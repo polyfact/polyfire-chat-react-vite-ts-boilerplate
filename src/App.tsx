@@ -26,7 +26,7 @@ function App() {
             // virtual soft girlfriend prompt : 49735ec7-6c20-4ceb-9741-3de1db4fe6cd
             // midjourney prompt : f4a1f732-9c38-4bdb-b9e4-3baa7971286a
             // Holy bible prompt : 8fc39ca4-3941-40d9-824a-5ed283102f6e
-            config.chat.promptId || "cb93e8e4-23fe-4a9d-b2b2-0b910d438509",
+            config.chat.promptId,
           autoMemory: true,
         })
       );
