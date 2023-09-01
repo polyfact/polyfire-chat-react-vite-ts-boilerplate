@@ -21,7 +21,7 @@ interface Config {
     buttonBorderColor: string;
     buttonBorderWidth: string;
     dotsColor: string;
-    promptId?: `${string}-${string}-${string}-${string}-${string}`;
+    promptId: `${string}-${string}-${string}-${string}-${string}`;
     memoryId: string;
   };
   footer: {
@@ -53,7 +53,7 @@ const config: Config = {
     buttonBorderWidth: "1px",
     dotsColor: "",
     memoryId: "",
-    promptId: undefined,
+    promptId: "xxxx-xxxx-xxxx-xxxx-xxxx",
   },
   footer: {
     bgColor: "",
