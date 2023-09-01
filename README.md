@@ -1,6 +1,6 @@
 # 🤖 sample-example-polyfact-chat
 
-Jumpstart your chat experience using the Polyfact SDK, powered by React and styled with love using styled-components! Vite and TypeScript bring speed and type safety. 
+Jumpstart your chat experience using the Polyfact SDK, powered by React and styled using styled-components! Vite and TypeScript bring speed and type safety. 
 
 ## 📌 Table of Contents
 
@@ -104,7 +104,7 @@ Have ideas? 🤔 Found a bug? 🐞 Join us! Check out the [issues](https://githu
 
 ## 📜 License
 
-This magic is under the MIT License. Check out `LICENSE` for details.
+This project is under the MIT License. Check out `LICENSE` for details.
 
 ---
 
