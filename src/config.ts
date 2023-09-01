@@ -53,7 +53,7 @@ const config: Config = {
     buttonBorderWidth: "1px",
     dotsColor: "",
     memoryId: "",
-    promptId: "xxxx-xxxx-xxxx-xxxx-xxxx",
+    promptId: "feea76f3-af40-4df9-be47-ad073d504615",
   },
   footer: {
     bgColor: "",
