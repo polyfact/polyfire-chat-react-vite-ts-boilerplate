@@ -1,46 +1,113 @@
-# Getting Started with Create React App
+# sample-example-polyfact-chat
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a boilerplate project for creating a chat interface using the Polyfact SDK with React and styled components. It is configured and optimized using Vite and TypeScript.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Using polyfact-cli](#using-polyfact-cli)
+- [Scripts](#scripts)
+- [Dependencies](#dependencies)
+- [Stack](#stack)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Fully customizable chat UI with styled components.
+- Seamless integration with Polyfact SDK for chat functionalities.
+- Pre-configured themes for chat, header, and footer.
+- Easy to adapt and extend based on your requirements.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Prerequisites
 
-### `npm test`
+- Node.js
+- npm/yarn
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Clone the repository:
+```bash
+git clone https://github.com/kevin-btc/polyfact-chat-template.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
+```bash
+cd polyfact-chat-template
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install dependencies:
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+1. Start the development server:
+```bash
+npm run dev
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Visit `http://localhost:3000` to view the chat interface.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Configuration
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+All configurations related to the chat UI, header, and footer can be found in `src/config.ts`. You can adjust colors, bot name, logos, and other UI settings from here.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Polyfact Configuration
 
-## Learn More
+To set up the chat to work with Polyfact:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Create a project at [Polyfact](https://app.polyfact.com).
+2. Replace the project ID in `app.tsx` with your own.
+3. Configure or use the provided system prompt IDs.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Using polyfact-cli
+
+You can also utilize the `polyfact-cli` to be guided through setting up the boilerplate:
+
+1. Run the command:
+```bash
+npx polyfact
+```
+
+2. Select "chat" from the options.
+3. Follow the on-screen instructions to set up your chat application.
+
+## Scripts
+
+- `npm run dev`: Starts the development server.
+- `npm run build`: Builds the application for production.
+- `npm run preview`: Runs a local preview of the built production version.
+
+## Dependencies
+
+- Core: `react`, `react-dom`, `styled-components`
+- Chat UI: `@polyfact/chat`, `polyfact`
+- Icons: `phosphor-react`
+- Dialog: `@radix-ui/react-dialog`
+- Bundler: `vite`
+- Types: `typescript`, `@types/react`, `@types/react-dom`
+
+## Stack
+
+- React
+- TypeScript
+- Vite
+- styled-components
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome. Feel free to check the [issues page](https://github.com/kevin-btc/polyfact-chat-template/issues) for any upcoming enhancements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License. See `LICENSE` for more information.
+
+---
+
+If you find this project helpful, please consider giving it a ⭐ on GitHub!
