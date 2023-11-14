@@ -1,6 +1,6 @@
-# 🤖 sample-example-polyfact-chat
+# 🤖 polyfire-chat-react-boilerplate
 
-Jumpstart your chat experience using the Polyfact SDK, powered by React and styled using styled-components! Vite and TypeScript bring speed and type safety. 
+Elevate your chat experience with the Polyfire SDK, seamlessly integrated into a React project and stylishly crafted using styled-components! Embrace the power and safety of TypeScript in your React development.
 
 ## 📌 Table of Contents
 
@@ -8,8 +8,8 @@ Jumpstart your chat experience using the Polyfact SDK, powered by React and styl
 - [🔧 Prerequisites](#-prerequisites)
 - [🚀 Installation](#-installation)
 - [🖥 Usage](#-usage)
-- [⚙ Configuration](#-configuration)
-- [💬 Using polyfact-cli](#-using-polyfact-cli)
+- [🎨 Color Picker for Development](#-color-picker-for-development)
+- [💬 Using polyfire-cli](#-using-polyfire-cli)
 - [🔑 Scripts](#-scripts)
 - [📚 Dependencies](#-dependencies)
 - [🥞 Stack](#-stack)
@@ -18,10 +18,9 @@ Jumpstart your chat experience using the Polyfact SDK, powered by React and styl
 
 ## 🌟 Features
 
-- Fully customizable chat UI with styled components.
-- Seamless integration with Polyfact SDK for chat functionalities.
-- Pre-configured themes for chat, header, and footer.
-- Easy to adapt and extend.
+- Smooth integration with the Polyfire SDK for enhanced chat functionalities.
+- Ready-to-use themes for chat, header, and footer, customizable to fit your needs.
+- Developed with the versatile and powerful React framework.
 
 ## 🔧 Prerequisites
 
@@ -31,81 +30,77 @@ Jumpstart your chat experience using the Polyfact SDK, powered by React and styl
 ## 🚀 Installation
 
 1️⃣. Clone the repository:
+
 ```bash
-git clone https://github.com/kevin-btc/polyfact-chat-template.git
+git clone https://github.com/kevin-btc/polyfire-chat-react-boilerplate.git
 ```
 
 2️⃣. Navigate to the project directory:
+
 ```bash
-cd polyfact-chat-template
+cd polyfire-chat-react-boilerplate
 ```
 
-3️⃣. Install the magic (dependencies):
+3️⃣. Install dependencies:
+
 ```bash
 npm install
 ```
 
 ## 🖥 Usage
 
-1️⃣. Fire up the development server:
+1️⃣. Launch the development server:
+
 ```bash
-npm run dev
+npm start
 ```
 
-2️⃣. Visit `http://localhost:3000` to see your chat bot in action!
+2️⃣. Visit `http://localhost:3000` to see your chatbot in action!
 
-## ⚙ Configuration
+## 🎨 Color Picker for Development
 
-All configurations can be tinkered with in `src/config.ts`. Adjust colors, name your bot, choose logos, and more.
+In the development environment, a color picker tool is included for personalizing the chat UI's color palette. This tool enables developers to experiment with various colors in real-time. After selecting your preferred colors, click the "Copy Config Color" button to copy the configuration. Then, update the default color configuration in `src/app/page.tsx` with your new selection.
 
-### 🛠 Polyfact Configuration
+## 💬 Using polyfire-cli
 
-1. Register a project at [Polyfact](https://app.polyfact.com).
-2. Replace the project ID in `app.tsx`.
-3. Select or provide system prompt IDs.
+Opt for the `polyfire-cli` for a streamlined setup:
 
-## 💬 Using polyfact-cli
+1️⃣. Activate the CLI:
 
-Want guided setup? Use the `polyfact-cli`:
-
-1️⃣. Summon the CLI:
 ```bash
-npx polyfact
+npx polyfire-js
 ```
 
-2️⃣. Pick "chat".
-3️⃣. Follow the breadcrumbs (on-screen instructions).
+2️⃣. Choose "chat".
+3️⃣. Follow the step-by-step instructions for a hassle-free configuration.
 
 ## 🔑 Scripts
 
-- `npm run dev`: Local development.
-- `npm run build`: Prep for production.
-- `npm run preview`: Peek at the production build.
+- `npm start`: Run the development server.
+- `npm run build`: Get ready for production.
+- `npm run preview`: Peek into the production-ready build.
 
 ## 📚 Dependencies
 
 - Core: `react`, `react-dom`
-- Chat: `@polyfact/chat`, `polyfact`
+- Chat: `@polyfire/chat`, `polyfire`
 - Icons: `phosphor-react`
 - Dialog: `@radix-ui/react-dialog`
-- Bundler: `vite`
 - Types: `typescript`
 
 ## 🥞 Stack
 
 - React
 - TypeScript
-- Vite
-- styled-components
 
 ## ✨ Contributing
 
-Have ideas? 🤔 Found a bug? 🐞 Join us! Check out the [issues](https://github.com/kevin-btc/polyfact-chat-template/issues).
+Ideas? 🤔 Bugs? 🐞 Be a part of our journey! Check out [issues](https://github.com/polyfire-ai/polyfire-chat-react-boilerplate/issues) to contribute.
 
 ## 📜 License
 
-This project is under the MIT License. Check out `LICENSE` for details.
+This project adheres to the MIT License. Refer to the `LICENSE` file for more information.
 
 ---
 
-If this lights up your day, give us a ⭐ on GitHub!
+If polyfire-chat-react-boilerplate brightens your day, don't forget to give us a ⭐ on GitHub!
