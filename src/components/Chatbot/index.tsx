@@ -8,7 +8,7 @@ import { Loader } from "../Loader";
 import ChatUI from "@polyfact/chat";
 import ColorPickerWrapper from "../Colors";
 
-const BOT_NAME = import.meta.env.NEXT_PUBLIC_VITE_CHATBOT_NAME || "Chatbot";
+const BOT_NAME = import.meta.env.VITE_POLYFIRE_BOTNAME || "Chatbot";
 
 const defaultColors = {
   chatBackgroundColor: "rgba(111, 111, 111, 0.1)",

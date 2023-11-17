@@ -5,9 +5,7 @@ import { PolyfireProvider } from "polyfire-js/hooks";
 
 import "./App.css";
 
-const BOT_NAME = import.meta.env.VITE_CHATBOT_NAME || "Chatbot";
-
-console.log(import.meta.env.VITE_POLYFIRE_PROJECT);
+const BOT_NAME = import.meta.env.VITE_POLYFIRE_BOTNAME || "Chatbot";
 
 function App() {
   return (
