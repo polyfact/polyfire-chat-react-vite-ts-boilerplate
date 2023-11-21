@@ -1,5 +1,5 @@
 {
-  "name": "sample-example-polyfact-chat",
+  "name": "polyfire-chat-react-vite-ts-boilerplate",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,7 +12,7 @@
     "@polyfact/chat": "^0.1.32",
     "@radix-ui/react-dialog": "^1.0.4",
     "phosphor-react": "^1.4.1",
-    "polyfire-js": "^0.2.12",
+    "polyfire-js": "^0.2.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^6.0.7"

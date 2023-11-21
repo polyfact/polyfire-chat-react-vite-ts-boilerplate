@@ -33,7 +33,7 @@ export function Chatbot() {
   const [chat, setChat] = useState<ChatType>();
 
   useEffect(() => {
-    if (!chat) {
+    if (!chat && status === "authenticated") {
       setChat(new Chat({ autoMemory: true }));
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -55,20 +55,22 @@ export function Chatbot() {
   }
 
   if (chat && status === "authenticated") {
-    /////////////////////////////////////////////////////
-    // ColorPickerWrapper is only used for the demo    //
-    // After you have chosen your colors,              //
-    // replace the defaultColors and delete this code  //
-    /////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////
+    // Looking to easily tailor your chatbot's appearance?       //
+    // Simply set the following condition to true to activate    //
+    // the customization feature. This enables you to try out    //
+    // various color schemes with ease. After selecting your     //
+    // preferred colors, just update the defaultColors           //
+    // and delete this block of code.                            //
+    ///////////////////////////////////////////////////////////////
 
-    if (import.meta.env.NODE_ENV !== "production") {
+    if (false) {
       return (
         <ColorPickerWrapper initialColors={defaultColors}>
           {({ colors }) => {
-            console.log("colorss", colors);
             return (
               <ChatUI
-                chat={chat}
+                chat={chat as ChatType}
                 botName={BOT_NAME}
                 buttonBorderWidth="1px"
                 {...colors}

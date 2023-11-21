@@ -7,14 +7,14 @@ interface FooterProps {
   textColor?: string;
 }
 
-const StyledFooter = styled.footer<Omit<FooterProps, "name">>`
+const StyledFooter = styled.footer<{ $bgColor?: string; $textColor?: string }>`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 120px;
-  background-color: ${(props) => props.bgColor || "#333"};
-  color: ${(props) => props.textColor || "#fff"};
+  background-color: ${(props) => props.$bgColor || "#333"};
+  color: ${(props) => props.$textColor || "#fff"};
   text-align: center;
   font-size: 1rem;
   line-height: 1.5;
@@ -33,7 +33,7 @@ const StyledParagraph = styled.p`
 
 export function Footer({ name, bgColor, textColor }: FooterProps) {
   return (
-    <StyledFooter bgColor={bgColor} textColor={textColor}>
+    <StyledFooter $bgColor={bgColor} $textColor={textColor}>
       <StyledParagraph>
         <Copyright size={24} weight="bold" />
         Copyright 2023 {name}
