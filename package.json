@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@polyfact/chat": "^0.1.32",
+    "@polyfact/chat": "^0.1.33",
     "@radix-ui/react-dialog": "^1.0.4",
     "phosphor-react": "^1.4.1",
     "polyfire-js": "^0.2.19",

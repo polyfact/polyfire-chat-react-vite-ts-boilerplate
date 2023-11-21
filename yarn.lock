@@ -1459,15 +1459,15 @@
   resolved "https://registry.npmjs.org/@nicolo-ribaudo/chokidar-2/-/chokidar-2-2.1.8-no-fsevents.3.tgz"
   integrity sha512-s88O1aVtXftvp5bCPB7WnmXc5IwOZZ7YPuwNPt+GtOOXpPvad1LfbmjYv+qII7zP6RU2QGnqve27dnLycEnyEQ==
 
-"@polyfact/chat@^0.1.32":
-  version "0.1.32"
-  resolved "https://registry.yarnpkg.com/@polyfact/chat/-/chat-0.1.32.tgz#21dcaf24506479b122735397d661bc7820d9ccb5"
-  integrity sha512-FM+YFy1JSd5Y6lKnfhv/irEqljwlDaA1vBBwsQ69DxkRzR62J2j27j+e9hFpm7DbGXX4Op5LF/6oTly3wN31jw==
+"@polyfact/chat@^0.1.33":
+  version "0.1.33"
+  resolved "https://registry.yarnpkg.com/@polyfact/chat/-/chat-0.1.33.tgz#15a9210087a0ec4206d1f12149a7869b4f9cb912"
+  integrity sha512-fU99F+fkqbxwbI9h+lZ49YEZ3dO+NV+uqfGmjCmEvr2gpgCrUBpJR8uiLOV2tUmmV37R6Hv4zRB/LY94eh6O9Q==
   dependencies:
     "@radix-ui/react-dialog" "^1.0.4"
     commander "^11.0.0"
     phosphor-react "^1.4.1"
-    polyfire-js "^0.2.12"
+    polyfire-js "^0.2.19"
     react-markdown "^8.0.7"
     styled-components "^6.0.7"
     tsdx "^0.14.1"
@@ -6293,26 +6293,6 @@ polyfact-io-ts@^2.2.20:
   version "2.2.20"
   resolved "https://registry.npmjs.org/polyfact-io-ts/-/polyfact-io-ts-2.2.20.tgz"
   integrity sha512-qGF6cWn4sKKrVULhJPRIBF/iOvyFLJpeR59ejD9BpSmSjj+xaY5GE98SRycloR0ORQVMZuedi71VurSTBq5zeQ==
-
-polyfire-js@^0.2.12:
-  version "0.2.12"
-  resolved "https://registry.npmjs.org/polyfire-js/-/polyfire-js-0.2.12.tgz"
-  integrity sha512-vk1qMhmlI0RyrjbBvbjL+oJ4TjC4v9gvNKGSCO/oHrkiCMosa5WF9dmo5b0K8UsEA3+8XtpGEEEfZ/Iy2RBqkQ==
-  dependencies:
-    "@supabase/supabase-js" "^2.31.0"
-    async-mutex "^0.4.0"
-    axios "^0.27.2"
-    buffer "^6.0.3"
-    fp-ts "^2.16.0"
-    inquirer "^9.2.10"
-    isomorphic-ws "^5.0.0"
-    js-tiktoken "^1.0.7"
-    polyfact-io-ts "^2.2.20"
-    process "^0.11.10"
-    react "^18.2.0"
-    readable-stream "^4.4.2"
-    uuid "^9.0.0"
-    ws "^8.13.0"
 
 polyfire-js@^0.2.19:
   version "0.2.19"
